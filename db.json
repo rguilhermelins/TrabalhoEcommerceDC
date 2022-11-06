@@ -1,0 +1,140 @@
+{
+  "favorito": [
+    {
+      "nome": "Big Mac",
+      "valor": 14.9,
+      "foto": "https://dcomercio.com.br/public/upload/gallery/2019/negocios/mcdonalds.jpg",
+      "id": 6
+    },
+    {
+      "nome": "Pizza de Calabresa",
+      "valor": 25.5,
+      "foto": "https://www.opovo.com.br/_midias/jpg/2019/07/03/gettyimages_9680227922-3227169.jpg",
+      "id": 7
+    }
+  ],
+  "carinho": [
+    {
+      "id": 1,
+      "nome": "Pizza de GalaPresa",
+      "quantidade": 2,
+      "valor": 29.9
+    },
+    {
+      "id": 2,
+      "nome": "Coca Cola",
+      "quantidade": 1,
+      "valor": 9.9
+    },
+    {
+      "id": 2,
+      "nome": "Coca Cola",
+      "quantidade": 1,
+      "valor": 9.9
+    },
+    {
+      "nome": "Pizza de GalaPresa",
+      "valor": 25.5,
+      "quantidade": 1,
+      "id": 3
+    },
+    {
+      "nome": "Mc Donalds",
+      "valor": 14.9,
+      "quantidade": 1,
+      "id": 4
+    },
+    {
+      "nome": "Pizza de GalaPresa",
+      "valor": 25.5,
+      "quantidade": 1,
+      "id": 5
+    },
+    {
+      "nome": "Pizza de GalaPresa",
+      "valor": 25.5,
+      "quantidade": 1,
+      "id": 6
+    },
+    {
+      "nome": "Mc Donalds",
+      "valor": 14.9,
+      "quantidade": 1,
+      "id": 7
+    },
+    {
+      "nome": "Pizza de GalaPresa",
+      "valor": 25.5,
+      "quantidade": 1,
+      "id": 8
+    },
+    {
+      "nome": "Mc Donalds",
+      "valor": 14.9,
+      "quantidade": 1,
+      "id": 9
+    },
+    {
+      "nome": "Mc Donalds",
+      "valor": 14.9,
+      "quantidade": 1,
+      "id": 10
+    },
+    {
+      "nome": "Mc Donalds",
+      "valor": 14.9,
+      "quantidade": 1,
+      "id": 11
+    },
+    {
+      "nome": "Kalzone",
+      "valor": 8.5,
+      "quantidade": 1,
+      "id": 12
+    },
+    {
+      "nome": "Coca-cola",
+      "valor": 5.9,
+      "quantidade": 1,
+      "id": 13
+    },
+    {
+      "nome": "Pizza de Calabresa",
+      "valor": 25.5,
+      "quantidade": 1,
+      "id": 14
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Pizza de Calabresa",
+      "valor": 25.5,
+      "foto": "https://www.opovo.com.br/_midias/jpg/2019/07/03/gettyimages_9680227922-3227169.jpg"
+    },
+    {
+      "id": 1,
+      "nome": "Big Mac",
+      "valor": 14.9,
+      "foto": "https://dcomercio.com.br/public/upload/gallery/2019/negocios/mcdonalds.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "X-tudo",
+      "valor": 10.9,
+      "foto": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/85/f2/db/xtudo-duplo.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Coca-cola",
+      "valor": 5.9,
+      "foto": "https://andinacocacola.vtexassets.com/arquivos/ids/155514/7894900010398_01.jpg?v=637722480261700000"
+    },
+    {
+      "id": 4,
+      "nome": "Kalzone",
+      "valor": 8.5,
+      "foto": "https://content.portaldofranchising.com.br/wp-content/uploads/2022/06/20115945/Imagem1-6.png"
+    }
+  ]
+}

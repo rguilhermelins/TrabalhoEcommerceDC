@@ -1,0 +1,55 @@
+body {
+    background-color: #e5e5e5;
+}
+
+.page-products {
+   width: 100%;
+   margin: auto;
+   
+}
+
+.page-products h2 {
+    text-align: center;
+}
+
+.content-button {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favoriteButtons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.content-card {
+    display: flex;
+    align-items: center;  
+    width: 100%;
+    gap: 20px;
+}
+
+@media (max-width: 400px) {
+    .content-card {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.card-products {
+    width: 250px;
+    height: 350px;
+}
+
+.addButton {
+    
+    cursor: pointer;
+}
+
+.addButton :hover {
+    transition: all;
+    transform: translate(0,2px);
+}
+

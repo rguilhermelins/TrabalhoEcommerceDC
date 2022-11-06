@@ -1,0 +1,14 @@
+.open-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 20px;
+    gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.MuiToolbar-root{
+    background-color: black;
+}

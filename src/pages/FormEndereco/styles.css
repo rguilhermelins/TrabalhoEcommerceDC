@@ -1,0 +1,12 @@
+.endereco {
+    margin: 0;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

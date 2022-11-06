@@ -1,0 +1,13 @@
+.content-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-carrinho {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
