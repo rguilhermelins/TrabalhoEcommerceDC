@@ -1,70 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 import { TextField, Button, Divider } from "@mui/material";
+import Box from "@mui/material/Box";
 
-import DeleteForeverOutlinedIcon from "@mui/icons-material/DeleteForeverOutlined";
-import ModeEditOutlineOutlinedIcon from "@mui/icons-material/ModeEditOutlineOutlined";
-import "./styles.css";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
 
-function Favorite() {
-  const [item, setItem] = useState([]);
-  const [remove, setRemove] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:8000/favorito")
-      .then((res) => res.json())
-      .then((dados) => setItem(dados));
-  }, []);
-
-  const removeFavorite = (id) => {
-    if (
-      false ===
-      window.confirm(
-        "Tem certeza que deseja remover?" && window.location.reload()
-      )
-    ) {
-      return;
-    }
-    fetch("http://localhost:8000/favorito/" + id, {
-      method: "DELETE",
-    });
-    setRemove(remove.filter((cadaFavorite) => cadaFavorite.id !== id));
-  };
-
-  return (
-    <>
-      <h1>PAGINA DE FAVORITOS</h1>
-      <div className="container-favorite">
-        {item.map((cadaItem) => (
-          <div>
-            <section className="card-favorite">
-              <article className="content-image">
-                <img className="image" src={cadaItem.foto} />
-              </article>
-              <article className="title-favorite">
-                <span>{cadaItem.nome}</span>
-              </article>
-              <article className="content-favorite">
-                <span>Valor: {cadaItem.valor}</span>
-                <div className="content-preco">
-                  <Link to={"/edit/" + cadaItem.id}>
-                    <ModeEditOutlineOutlinedIcon />
-                  </Link>
-                  <DeleteForeverOutlinedIcon
-                    onClick={() => removeFavorite(cadaItem.id)}
-                  />
-                </div>
-              </article>
-            </section>
-          </div>
-        ))}
-      </div>
-    </>
-  );
-}
-
-function EditFavorite() {
+function Edit() {
   const [nome, setNome] = useState("");
   const [valor, setValor] = useState("");
   const [foto, setFoto] = useState("");
@@ -148,4 +91,4 @@ function EditFavorite() {
   );
 }
 
-export default Favorite;
+export default Edit;

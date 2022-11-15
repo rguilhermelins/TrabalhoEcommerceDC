@@ -8,6 +8,9 @@ import Carrinho from "./pages/Carrinho";
 import Navbar from "./components/Navbar";
 import FavoriteT  from "./pages/FavoriteT";
 
+import Edit from "./pages/FavoriteT/Edit/editFavorite";
+
+
 export default function () {
   return (
     <>
@@ -21,6 +24,7 @@ export default function () {
             <Route path="endereco" element={<FormEndereco />} />
             <Route path="carrinho" element={<Carrinho />} />
             <Route path="favorito" element={<FavoriteT/>} />
+            <Route path="/edit/:id" element={<Edit/>}/>
           </Routes>
         </BrowserRouter>
       </div>

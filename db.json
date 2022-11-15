@@ -1,16 +1,28 @@
 {
   "favorito": [
     {
-      "nome": "Big Mac",
-      "valor": 14.9,
-      "foto": "https://dcomercio.com.br/public/upload/gallery/2019/negocios/mcdonalds.jpg",
-      "id": 6
-    },
-    {
       "nome": "Pizza de Calabresa",
       "valor": 25.5,
       "foto": "https://www.opovo.com.br/_midias/jpg/2019/07/03/gettyimages_9680227922-3227169.jpg",
       "id": 7
+    },
+    {
+      "nome": "X-tudo",
+      "valor": 10.9,
+      "foto": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/85/f2/db/xtudo-duplo.jpg",
+      "id": 15
+    },
+    {
+      "nome": "Kalzone",
+      "valor": 8.5,
+      "foto": "https://content.portaldofranchising.com.br/wp-content/uploads/2022/06/20115945/Imagem1-6.png",
+      "id": 16
+    },
+    {
+      "nome": "Big Mac",
+      "valor": 14.9,
+      "foto": "https://dcomercio.com.br/public/upload/gallery/2019/negocios/mcdonalds.jpg",
+      "id": 17
     }
   ],
   "carinho": [
@@ -103,6 +115,18 @@
       "valor": 25.5,
       "quantidade": 1,
       "id": 14
+    },
+    {
+      "nome": "Pizza de Calabresa",
+      "valor": 25.5,
+      "quantidade": 1,
+      "id": 15
+    },
+    {
+      "nome": "Coca-cola",
+      "valor": 5.9,
+      "quantidade": 1,
+      "id": 16
     }
   ],
   "produtos": [
