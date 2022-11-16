@@ -36,7 +36,6 @@
   background-color: #4c4c4c;
   color: antiquewhite;
   font-size: 18px;
-  
 }
 
 .card-favorite:hover {
@@ -86,4 +85,8 @@
 
 h1 {
   text-align: center;
+}
+
+.text-field {
+  margin-top: 5px;
 }
